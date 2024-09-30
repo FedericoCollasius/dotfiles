@@ -193,6 +193,16 @@ exec_always feh --bg-scale /home/fede/.config/wallpapers/ghibli-nature.jpg
 exec_always --no-startup-id picom -b
 
 # Polybar setup
-exec_always --no-startup-id killall polybar
-exec_always --no-startup-id polybar
+exec_always --no-startup-id ~/.config/polybar/launch.sh 
+
+# Flameshot setup
+bindsym Print exec --no-startup-id flameshot gui
+
+# Custom key-bindings
+
+# Cycle forward through workspaces
+bindsym $mod+Tab workspace next
+
+# Cycle backward through workspaces
+bindsym $mod+Shift+Tab workspace prev
 
