@@ -10,13 +10,8 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ~='cd ~'
 
-# Searching and Finding
-alias grep='grep --color=auto'   
-alias fgrep='fgrep --color=auto' 
-alias egrep='egrep --color=auto' 
-alias find='find . -name'        
-
 # Networking
+alias ports='netstat -tulanp'
 alias ip='curl ipinfo.io/ip'      
 
 # Git
