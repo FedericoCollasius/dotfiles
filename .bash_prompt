@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Set the prompt to show username, hostname, and current directory
+PS1='\[\e[32m\]\u@\h:\[\e[34m\]\w\[\e[0m\]\$ '
+
+# Optional: Add color for different elements
+# \u: username
+# \h: hostname
+# \w: current working directory
+# \[\e[32m\]: set text color to green
+# \[\e[34m\]: set text color to blue
+# \[\e[0m\]: reset text color
+
