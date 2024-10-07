@@ -198,6 +198,9 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 # Flameshot setup
 bindsym Print exec --no-startup-id flameshot gui
 
+# Gnome Keyring
+exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
+
 # Custom key-bindings
 
 # Cycle forward through workspaces
@@ -205,4 +208,8 @@ bindsym $mod+Tab workspace next
 
 # Cycle backward through workspaces
 bindsym $mod+Shift+Tab workspace prev
+
+
+
+
 
