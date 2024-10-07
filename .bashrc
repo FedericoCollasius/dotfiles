@@ -5,3 +5,5 @@ for file in ~/.{path,exports,bash_prompt,bash_functions,bash_aliases,extra}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
+
+[ -f "/home/fede/.ghcup/env" ] && . "/home/fede/.ghcup/env" # ghcup-env
