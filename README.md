@@ -7,3 +7,4 @@
 - [ ] Research why zsh > bash
 - [ ] Find out whats the scope of Alacritty vs bash/zsh prompt
 - [ ] Manage with Ansible not Stow  
+- [ ] Install Nala 
