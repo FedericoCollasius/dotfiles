@@ -12,7 +12,6 @@ alias ~='cd ~'
 
 # Networking
 alias ports='netstat -tulanp'
-alias ip='curl ipinfo.io/ip'      
 
 # Git
 alias g='git'                     
