@@ -32,4 +32,5 @@ alias free='free -h'
 # Misc
 alias update='sudo apt update && sudo apt upgrade'
 
-
+# U&R
+alias hdi='ssh uyr@172.18.6.105 -p 8022'
