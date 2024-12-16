@@ -1,1 +1,2 @@
-print("hello")
+require("config")
+vim.cmd[[colorscheme tokyonight]]
