@@ -32,5 +32,9 @@ alias free='free -h'
 # Misc
 alias update='sudo apt update && sudo apt upgrade'
 
+# NVim/Vim
+alias vi='/usr/bin/vim'
+alias vim='/usr/bin/nvim'
+
 # U&R
 alias hdi='ssh uyr@172.18.6.105 -p 8022'

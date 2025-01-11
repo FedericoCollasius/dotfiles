@@ -1,0 +1,4 @@
+# For WSL
+if grep -q "microsoft" /proc/version &>/dev/null; then
+    export PATH="$HOME/.local/bin:$PATH"
+fi
