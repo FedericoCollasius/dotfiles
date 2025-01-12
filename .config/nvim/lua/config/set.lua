@@ -1,4 +1,4 @@
-vim.opt.clipboard = "unnamedplus"
+vim.opt.clipboard = ""
 
 vim.opt.nu = true -- line numbers
 vim.opt.relativenumber = true -- relative line numbers
