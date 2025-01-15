@@ -34,7 +34,7 @@ alias update='sudo apt update && sudo apt upgrade'
 
 # NVim/Vim
 alias vi='/usr/bin/vim'
-alias vim='/usr/bin/nvim'
+alias vim="$(command -v /usr/bin/nvim || command -v /usr/local/bin/nvim)"
 
 # U&R
 alias hdi='ssh uyr@172.18.6.105 -p 8022'
