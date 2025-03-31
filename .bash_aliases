@@ -35,4 +35,3 @@ alias update='sudo apt update && sudo apt upgrade'
 # NVim/Vim
 alias vi='/usr/bin/vim'
 alias vim="$(command -v /usr/bin/nvim || command -v /usr/local/bin/nvim)"
-
