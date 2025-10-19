@@ -1,0 +1,14 @@
+# Dotfiles repo
+.dotfiles/
+
+# Browsers (datos sensibles)
+.config/BraveSoftware/
+.config/google-chrome*/
+.config/chromium/
+.config/microsoft-edge*/
+
+# Apps con datos sensibles
+.config/1Password/
+.config/keybase/
+.config/discord/
+.config/obsidian/

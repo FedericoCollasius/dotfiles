@@ -1,0 +1,1 @@
+/home/collasius/.config/omarchy/current/theme/neovim.lua
