@@ -12,3 +12,5 @@
 .config/keybase/
 .config/discord/
 .config/obsidian/
+
+.config/nvim/lazy-lock.json
