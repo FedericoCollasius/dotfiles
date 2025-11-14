@@ -11,4 +11,5 @@ source ~/.local/share/omarchy/default/bash/rc
 # alias p='python'
 export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
 export PATH=$JAVA_HOME/bin:$PATH
+export PATH="/home/collasius/.local/share/../bin:$PATH"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
